@@ -1,0 +1,30 @@
+# FastAPI Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Face Recognition & ML
+insightface>=0.7.3
+faiss-cpu>=1.7.4
+# Note: For GPU support, use: faiss-gpu>=1.7.4
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Data Validation & Models
+pydantic>=2.0.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+
+# Logging
+loguru>=0.7.2
+pytz>=2023.3
+
+# Streamlit UI (Optional - for testing UI)
+streamlit>=1.28.0
+
+# HTTP Client (for testing & Streamlit)
+requests>=2.31.0
+
